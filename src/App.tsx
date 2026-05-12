@@ -229,7 +229,9 @@ function Hero() {
         </div>
         <h1 className="text-4xl font-extrabold text-slate-900 leading-tight tracking-tight mb-4">
           Nuotolinė ortopedo{" "}
-          <span className="text-blue-700">konsultacija greičiau nei per 24 val.</span>
+          <span className="text-blue-700">
+            konsultacija greičiau nei per 24 val.
+          </span>
         </h1>
         <p className="text-slate-500 text-base leading-relaxed mb-7 border-l-4 border-blue-200 pl-4">
           Užmirškite ilgas eiles ir varginančias keliones į kliniką. Gaukite
@@ -241,7 +243,7 @@ function Hero() {
             "Sporto traumos: petys, alkūnė, klubas, kelys, čiurna",
             "Sąnarių, raiščių ir sausgyslių echoskopija",
             "Lėtinių degeneracinių sąnarių ligų gydymas",
-            "PRP / PRGF ir Hialurono injekcijos",
+            "Regeneracinė medicina: PRP/PRGF ir Hialurono injekcijos",
             "Skubi traumatologinė pagalba ir patarimai",
           ].map((item) => (
             <li
@@ -293,7 +295,7 @@ const specialties = [
   },
   {
     Icon: IconPRP,
-    title: "Injekcijos ir blokados",
+    title: "Regeneracinė medicina",
     text: "Intrasąnarinės ir intrasausgyslinės injekcijos: PRP/PRGF, hialurono rūgštis, plazmos + hialurono derinys. Blokados (išskyrus nugaros).",
   },
   {
@@ -357,13 +359,16 @@ function WhenToSeek() {
             Ar reikia konsultacijos ortopedo?
           </h2>
           <p className="text-slate-500 leading-relaxed mb-8">
-            Ortopedas-traumatologas diagnozuoja ir gydo kaulų, sąnarių,
-            raumenų, sausgyslių ir raiščių sutrikimus. Kreipkitės, jei
-            pastebite bent vieną iš šių požymių:
+            Ortopedas-traumatologas diagnozuoja ir gydo kaulų, sąnarių, raumenų,
+            sausgyslių ir raiščių sutrikimus. Kreipkitės, jei pastebite bent
+            vieną iš šių požymių:
           </p>
           <ul className="space-y-3">
             {reasons.map((r) => (
-              <li key={r} className="flex items-start gap-3 text-sm text-slate-700">
+              <li
+                key={r}
+                className="flex items-start gap-3 text-sm text-slate-700"
+              >
                 <span className="mt-0.5 w-5 h-5 rounded-full bg-blue-700 text-white flex items-center justify-center flex-shrink-0">
                   <IconCheck />
                 </span>
@@ -386,14 +391,25 @@ function WhenToSeek() {
           </p>
           <div className="space-y-3">
             {[
-              { title: "Reabilitacija", desc: "Efektyvios reabilitacijos programos po traumų" },
-              { title: "Vaizdiniai tyrimai", desc: "Rentgeno, MRT, KT tyrimų interpretacija" },
-              { title: "Šeimos gydytojas", desc: "Koordinuotas gydymas su pirminės priežiūros gydytoju" },
+              {
+                title: "Reabilitacija",
+                desc: "Efektyvios reabilitacijos programos po traumų",
+              },
+              {
+                title: "Vaizdiniai tyrimai",
+                desc: "Rentgeno, MRT, KT tyrimų interpretacija",
+              },
+              {
+                title: "Šeimos gydytojas",
+                desc: "Koordinuotas gydymas su pirminės priežiūros gydytoju",
+              },
             ].map((item) => (
               <div key={item.title} className="flex gap-3 items-start">
                 <div className="w-1.5 h-1.5 rounded-full bg-blue-700 mt-2 flex-shrink-0" />
                 <div>
-                  <p className="text-sm font-semibold text-slate-800">{item.title}</p>
+                  <p className="text-sm font-semibold text-slate-800">
+                    {item.title}
+                  </p>
                   <p className="text-xs text-slate-500">{item.desc}</p>
                 </div>
               </div>
@@ -482,8 +498,8 @@ function About() {
               color: "bg-slate-800 text-white",
             },
             {
-              value: "PRP",
-              label: "Regeneracinės medicinos specialistas",
+              value: "Regeneracinės medicinos specialistas",
+              label: "PRGF/PRP",
               color: "bg-slate-50 text-slate-800 border border-slate-200",
             },
           ].map((card) => (
@@ -568,7 +584,9 @@ function Consultation() {
             ))}
           </ol>
           <p className="mt-8 text-xs text-slate-400 bg-slate-50 border border-slate-200 rounded-xl p-4 leading-relaxed">
-            <strong className="text-slate-600">Pasiruošimas konsultacijai:</strong>{" "}
+            <strong className="text-slate-600">
+              Pasiruošimas konsultacijai:
+            </strong>{" "}
             Pasirinkite ramią, gerai apšviestą ir netriukšmingą aplinką.
             Receptas gali būti išrašomas tik nekompensuojamiems ir
             nepsichotropiniams vaistams. Turint privatų sveikatos draudimą —
