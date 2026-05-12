@@ -6,6 +6,11 @@
   --font-sans: system-ui, 'Segoe UI', Roboto, sans-serif;
 }
 
+html {
+  scroll-padding-top: 80px;
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
