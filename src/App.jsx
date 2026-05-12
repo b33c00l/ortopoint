@@ -484,7 +484,7 @@ function Consultation() {
               <p className="text-xs font-semibold uppercase tracking-widest text-blue-200 mb-1">
                 Konsultacijos kaina
               </p>
-              <p className="text-6xl font-extrabold tracking-tighter">€49</p>
+              <p className="text-6xl font-extrabold tracking-tighter">€39</p>
               <p className="text-xs text-blue-200 mt-1">
                 vienkartinė konsultacija · ~45 min.
               </p>
