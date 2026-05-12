@@ -1,54 +1,122 @@
-import doctorImg from './assets/doctor.png'
+import doctorImg from "./assets/doctor.png";
 
 /* ─── SVG icon components ─── */
 const IconCross = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-    <path d="M10 3h4v7h7v4h-7v7h-4v-7H3v-4h7z"/>
+    <path d="M10 3h4v7h7v4h-7v7h-4v-7H3v-4h7z" />
   </svg>
-)
+);
 const IconCheck = () => (
   <svg viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
-    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+    <path
+      fillRule="evenodd"
+      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+      clipRule="evenodd"
+    />
   </svg>
-)
+);
 const IconSport = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
-    <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/>
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.75"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="w-7 h-7"
+  >
+    <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z" />
   </svg>
-)
+);
 const IconUltrasound = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
-    <path d="M3 12h2M5 7l1.5 1.5M5 17l1.5-1.5M12 3v2M17 5l-1.5 1.5M19 12h2M17 19l-1.5-1.5M12 19v2"/>
-    <circle cx="12" cy="12" r="5"/>
-    <circle cx="12" cy="12" r="2"/>
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.75"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="w-7 h-7"
+  >
+    <path d="M3 12h2M5 7l1.5 1.5M5 17l1.5-1.5M12 3v2M17 5l-1.5 1.5M19 12h2M17 19l-1.5-1.5M12 19v2" />
+    <circle cx="12" cy="12" r="5" />
+    <circle cx="12" cy="12" r="2" />
   </svg>
-)
+);
 const IconJoint = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
-    <path d="M8 6h8M8 18h8M12 3v18M7 9.5c0 1.38 2.24 2.5 5 2.5s5-1.12 5-2.5"/>
-    <ellipse cx="12" cy="12" rx="5" ry="2.5"/>
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.75"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="w-7 h-7"
+  >
+    <path d="M8 6h8M8 18h8M12 3v18M7 9.5c0 1.38 2.24 2.5 5 2.5s5-1.12 5-2.5" />
+    <ellipse cx="12" cy="12" rx="5" ry="2.5" />
   </svg>
-)
+);
 const IconPRP = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
-    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.75"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="w-7 h-7"
+  >
+    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
   </svg>
-)
+);
 const IconCalendar = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
-    <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.75"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="w-5 h-5"
+  >
+    <rect x="3" y="4" width="18" height="18" rx="2" />
+    <line x1="16" y1="2" x2="16" y2="6" />
+    <line x1="8" y1="2" x2="8" y2="6" />
+    <line x1="3" y1="10" x2="21" y2="10" />
   </svg>
-)
+);
 const IconVideo = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
-    <polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/>
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.75"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="w-5 h-5"
+  >
+    <polygon points="23 7 16 12 23 17 23 7" />
+    <rect x="1" y="5" width="15" height="14" rx="2" />
   </svg>
-)
+);
 const IconDoc = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
-    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.75"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="w-5 h-5"
+  >
+    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+    <polyline points="14 2 14 8 20 8" />
+    <line x1="16" y1="13" x2="8" y2="13" />
+    <line x1="16" y1="17" x2="8" y2="17" />
+    <polyline points="10 9 9 9 8 9" />
   </svg>
-)
+);
 
 /* ─── Header ─── */
 function Header() {
@@ -60,14 +128,30 @@ function Header() {
             <IconCross />
           </div>
           <div>
-            <p className="text-sm font-bold text-slate-900 leading-tight">Dr. Dovydas Prascevičius</p>
-            <p className="text-xs text-slate-500 leading-tight tracking-wide uppercase">Ortopedas-Traumatologas</p>
+            <p className="text-sm font-bold text-slate-900 leading-tight">
+              Dr. Dovydas Prascevičius
+            </p>
+            <p className="text-xs text-slate-500 leading-tight tracking-wide uppercase">
+              Ortopedas-Traumatologas
+            </p>
           </div>
         </div>
         <nav className="hidden md:flex items-center gap-6 text-sm text-slate-600">
-          <a href="#specialties" className="hover:text-blue-700 transition-colors">Specializacija</a>
-          <a href="#about" className="hover:text-blue-700 transition-colors">Apie mane</a>
-          <a href="#consultation" className="hover:text-blue-700 transition-colors">Konsultacija</a>
+          <a
+            href="#specialties"
+            className="hover:text-blue-700 transition-colors"
+          >
+            Specializacija
+          </a>
+          <a href="#about" className="hover:text-blue-700 transition-colors">
+            Apie mane
+          </a>
+          <a
+            href="#consultation"
+            className="hover:text-blue-700 transition-colors"
+          >
+            Konsultacija
+          </a>
         </nav>
         <a
           href="#consultation"
@@ -77,16 +161,16 @@ function Header() {
         </a>
       </div>
     </header>
-  )
+  );
 }
 
 /* ─── Stats bar ─── */
 const stats = [
-  { value: '10+', label: 'Metų patirties' },
-  { value: '3 000+', label: 'Pacientų' },
-  { value: 'LSMU', label: 'Med. universitetas' },
-  { value: 'Online', label: 'Prieinamas 7 d./sav.' },
-]
+  { value: "10+", label: "Metų patirties" },
+  { value: "3 000+", label: "Pacientų" },
+  { value: "LSMU", label: "Med. universitetas" },
+  { value: "Online", label: "Prieinamas 7 d./sav." },
+];
 
 function StatsBar() {
   return (
@@ -95,12 +179,14 @@ function StatsBar() {
         {stats.map((s) => (
           <div key={s.label} className="text-center px-4 first:pl-0">
             <p className="text-xl font-extrabold tracking-tight">{s.value}</p>
-            <p className="text-xs text-blue-200 mt-0.5 uppercase tracking-wider">{s.label}</p>
+            <p className="text-xs text-blue-200 mt-0.5 uppercase tracking-wider">
+              {s.label}
+            </p>
           </div>
         ))}
       </div>
     </div>
-  )
+  );
 }
 
 /* ─── Hero ─── */
@@ -110,22 +196,26 @@ function Hero() {
       <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-slate-100 aspect-[3/4] max-h-[520px]">
         <img
           src={doctorImg}
-          alt="Dr. Dovydas Prascevičius"
+          alt="Dovydas Prascevičius"
           className="w-full h-full object-cover object-top"
         />
         <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-900/80 to-transparent p-5">
-          <p className="text-white font-bold text-base leading-tight">Dr. Dovydas Prascevičius</p>
-          <p className="text-blue-200 text-xs mt-0.5 uppercase tracking-widest">MD · Ortopedas-Traumatologas</p>
+          <p className="text-white font-bold text-base leading-tight">
+            Dovydas Prascevičius
+          </p>
+          <p className="text-blue-200 text-xs mt-0.5 uppercase tracking-widest">
+            MD · Ortopedas-Traumatologas
+          </p>
         </div>
       </div>
 
       <div>
         <div className="inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase text-blue-700 bg-blue-50 border border-blue-200 rounded-full px-3 py-1 mb-5">
-          <span className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse"/>
+          <span className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse" />
           Priima online konsultacijas
         </div>
         <h1 className="text-4xl font-extrabold text-slate-900 leading-tight tracking-tight mb-4">
-          Profesionali ortopedijos{' '}
+          Profesionali ortopedijos{" "}
           <span className="text-blue-700">konsultacija internetu</span>
         </h1>
         <p className="text-slate-500 text-base leading-relaxed mb-7 border-l-4 border-blue-200 pl-4">
@@ -135,13 +225,16 @@ function Hero() {
         </p>
         <ul className="space-y-3 mb-8">
           {[
-            'Sporto traumos: petys, alkūnė, klubas, kelys, čiurna',
-            'Sąnarių, raiščių ir sausgyslių echoskopija',
-            'Degeneracinių sąnarių ligų konservatyvus gydymas',
-            'PRP injekcijos (Platelet-Rich Plasma)',
-            'Sunkių ir negyjančių žaizdų gydymas',
+            "Sporto traumos: petys, alkūnė, klubas, kelys, čiurna",
+            "Sąnarių, raiščių ir sausgyslių echoskopija",
+            "Degeneracinių sąnarių ligų konservatyvus gydymas",
+            "PRP injekcijos (Platelet-Rich Plasma)",
+            "Sunkių ir negyjančių žaizdų gydymas",
           ].map((item) => (
-            <li key={item} className="flex items-start gap-3 text-sm text-slate-700">
+            <li
+              key={item}
+              className="flex items-start gap-3 text-sm text-slate-700"
+            >
               <span className="mt-0.5 w-5 h-5 rounded-full bg-blue-700 text-white flex items-center justify-center flex-shrink-0">
                 <IconCheck />
               </span>
@@ -165,39 +258,46 @@ function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 /* ─── Specialties ─── */
 const specialties = [
   {
     Icon: IconSport,
-    title: 'Sporto traumos',
-    text: 'Peties, alkūnės, klubo, kelio, čiurnos sąnarių traumų, kaulų lūžių, raumenų, sausgyslių ir raiščių traumų konservatyvus gydymas.',
+    title: "Sporto traumos",
+    text: "Peties, alkūnės, klubo, kelio, čiurnos sąnarių traumų, kaulų lūžių, raumenų, sausgyslių ir raiščių traumų konservatyvus gydymas.",
   },
   {
     Icon: IconUltrasound,
-    title: 'Echoskopija',
-    text: 'Sąnarių, raiščių ir sausgyslių ultragarsinis tyrimas — tiksliam traumų ir patologijų nustatymui bei tolesnio gydymo planavimui.',
+    title: "Echoskopija",
+    text: "Sąnarių, raiščių ir sausgyslių ultragarsinis tyrimas — tiksliam traumų ir patologijų nustatymui bei tolesnio gydymo planavimui.",
   },
   {
     Icon: IconJoint,
-    title: 'Degeneracinės ligos',
-    text: 'Degeneracinių sąnarių ligų ir sunkių negyjančių žaizdų konservatyvus, į pacientą orientuotas gydymas.',
+    title: "Degeneracinės ligos",
+    text: "Degeneracinių sąnarių ligų ir sunkių negyjančių žaizdų konservatyvus, į pacientą orientuotas gydymas.",
   },
   {
     Icon: IconPRP,
-    title: 'PRP injekcijos',
-    text: 'Platelet-Rich Plasma (PRP) injekcijos — biologinis, mažai invazinis audinių atsinaujinimo ir skausmo mažinimo metodas.',
+    title: "PRP injekcijos",
+    text: "Platelet-Rich Plasma (PRP) injekcijos — biologinis, mažai invazinis audinių atsinaujinimo ir skausmo mažinimo metodas.",
   },
-]
+];
 
 function Specialties() {
   return (
-    <section className="bg-slate-50 border-y border-slate-200 py-16 px-6" id="specialties">
+    <section
+      className="bg-slate-50 border-y border-slate-200 py-16 px-6"
+      id="specialties"
+    >
       <div className="max-w-6xl mx-auto">
-        <p className="text-xs font-bold tracking-widest uppercase text-blue-700 mb-2">Domėjimosi sritys</p>
-        <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-10">Su kuo galiu padėti?</h2>
+        <p className="text-xs font-bold tracking-widest uppercase text-blue-700 mb-2">
+          Domėjimosi sritys
+        </p>
+        <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-10">
+          Su kuo galiu padėti?
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {specialties.map((s) => (
             <div
@@ -214,7 +314,7 @@ function Specialties() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 /* ─── About / Credentials ─── */
@@ -223,25 +323,51 @@ function About() {
     <section className="py-16 px-6 bg-white" id="about">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
         <div>
-          <p className="text-xs font-bold tracking-widest uppercase text-blue-700 mb-2">Apie gydytoją</p>
-          <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-5">Patirtis ir kvalifikacija</h2>
+          <p className="text-xs font-bold tracking-widest uppercase text-blue-700 mb-2">
+            Apie gydytoją
+          </p>
+          <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-5">
+            Patirtis ir kvalifikacija
+          </h2>
           <p className="text-slate-600 leading-relaxed mb-6">
-            Dr. Dovydas Prascevičius yra licencijuotas ortopedas-traumatologas, baigęs
-            Lietuvos sveikatos mokslų universitetą (LSMU). Daugiau nei 10 metų klinikinės
-            patirties, specializuojasi sporto medicinos ir regeneracinės ortopedijos srityse.
+            Dr. Dovydas Prascevičius yra licencijuotas ortopedas-traumatologas,
+            baigęs Lietuvos sveikatos mokslų universitetą (LSMU). Daugiau nei 10
+            metų klinikinės patirties, specializuojasi sporto medicinos ir
+            regeneracinės ortopedijos srityse.
           </p>
           <div className="space-y-4">
             {[
-              { label: 'Išsilavinimas', value: 'LSMU Medicinos fakultetas, Medicinos gydytojo kvalifikacija' },
-              { label: 'Rezidentūra', value: 'Ortopedija ir traumatologija, Kauno klinikos' },
-              { label: 'Specializacija', value: 'Sporto traumatologija, PRP terapija, konservatyvus gydymas' },
-              { label: 'Naryste', value: 'Lietuvos ortopedų-traumatologų asociacija' },
+              {
+                label: "Išsilavinimas",
+                value:
+                  "LSMU Medicinos fakultetas, Medicinos gydytojo kvalifikacija",
+              },
+              {
+                label: "Rezidentūra",
+                value: "Ortopedija ir traumatologija, Kauno klinikos",
+              },
+              {
+                label: "Specializacija",
+                value:
+                  "Sporto traumatologija, PRP terapija, konservatyvus gydymas",
+              },
+              {
+                label: "Naryste",
+                value: "Lietuvos ortopedų-traumatologų asociacija",
+              },
             ].map((c) => (
-              <div key={c.label} className="flex gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100">
+              <div
+                key={c.label}
+                className="flex gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100"
+              >
                 <div className="w-1.5 rounded-full bg-blue-700 flex-shrink-0 self-stretch" />
                 <div>
-                  <p className="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-0.5">{c.label}</p>
-                  <p className="text-sm text-slate-800 font-medium">{c.value}</p>
+                  <p className="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-0.5">
+                    {c.label}
+                  </p>
+                  <p className="text-sm text-slate-800 font-medium">
+                    {c.value}
+                  </p>
                 </div>
               </div>
             ))}
@@ -249,40 +375,86 @@ function About() {
         </div>
         <div className="grid grid-cols-2 gap-4">
           {[
-            { value: '10+', label: 'Metų klinikinės patirties', color: 'bg-blue-700 text-white' },
-            { value: '3 000+', label: 'Sėkmingai išgydytų pacientų', color: 'bg-blue-50 text-blue-700 border border-blue-200' },
-            { value: 'LSMU', label: 'Medicinos universiteto absolventas', color: 'bg-slate-800 text-white' },
-            { value: 'PRP', label: 'Sertifikuotas PRP specialistas', color: 'bg-slate-50 text-slate-800 border border-slate-200' },
+            {
+              value: "10+",
+              label: "Metų klinikinės patirties",
+              color: "bg-blue-700 text-white",
+            },
+            {
+              value: "3 000+",
+              label: "Sėkmingai išgydytų pacientų",
+              color: "bg-blue-50 text-blue-700 border border-blue-200",
+            },
+            {
+              value: "LSMU",
+              label: "Medicinos universiteto absolventas",
+              color: "bg-slate-800 text-white",
+            },
+            {
+              value: "PRP",
+              label: "Sertifikuotas PRP specialistas",
+              color: "bg-slate-50 text-slate-800 border border-slate-200",
+            },
           ].map((card) => (
-            <div key={card.label} className={`rounded-2xl p-6 flex flex-col justify-between min-h-[140px] ${card.color}`}>
-              <p className="text-3xl font-extrabold tracking-tight">{card.value}</p>
-              <p className="text-xs font-medium leading-snug opacity-80 mt-2">{card.label}</p>
+            <div
+              key={card.label}
+              className={`rounded-2xl p-6 flex flex-col justify-between min-h-[140px] ${card.color}`}
+            >
+              <p className="text-3xl font-extrabold tracking-tight">
+                {card.value}
+              </p>
+              <p className="text-xs font-medium leading-snug opacity-80 mt-2">
+                {card.label}
+              </p>
             </div>
           ))}
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 /* ─── Consultation ─── */
 function Consultation() {
   const steps = [
-    { n: '01', Icon: IconCalendar, title: 'Rezervuokite laiką', desc: 'Pasirinkite jums patogų laiką ir užpildykite trumpą klinikinę anketą.' },
-    { n: '02', Icon: IconVideo, title: 'Prisijunkite prie pokalbio', desc: 'Gaukite saugią nuorodą el. paštu ir prisijunkite iš bet kurio įrenginio.' },
-    { n: '03', Icon: IconDoc, title: 'Gaukite rekomendacijas', desc: 'Po konsultacijos — išsami rašytinė išvada, gydymo planas ir tolimesni žingsniai.' },
-  ]
+    {
+      n: "01",
+      Icon: IconCalendar,
+      title: "Rezervuokite laiką",
+      desc: "Pasirinkite jums patogų laiką ir užpildykite trumpą klinikinę anketą.",
+    },
+    {
+      n: "02",
+      Icon: IconVideo,
+      title: "Prisijunkite prie pokalbio",
+      desc: "Gaukite saugią nuorodą el. paštu ir prisijunkite iš bet kurio įrenginio.",
+    },
+    {
+      n: "03",
+      Icon: IconDoc,
+      title: "Gaukite rekomendacijas",
+      desc: "Po konsultacijos — išsami rašytinė išvada, gydymo planas ir tolimesni žingsniai.",
+    },
+  ];
 
   return (
-    <section className="py-16 px-6 bg-slate-50 border-t border-slate-200" id="consultation">
+    <section
+      className="py-16 px-6 bg-slate-50 border-t border-slate-200"
+      id="consultation"
+    >
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-16 items-start">
         <div>
-          <p className="text-xs font-bold tracking-widest uppercase text-blue-700 mb-2">Nuotolinė konsultacija</p>
-          <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-4">Kaip veikia online konsultacija?</h2>
+          <p className="text-xs font-bold tracking-widest uppercase text-blue-700 mb-2">
+            Nuotolinė konsultacija
+          </p>
+          <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight mb-4">
+            Kaip veikia online konsultacija?
+          </h2>
           <p className="text-slate-500 leading-relaxed mb-10">
-            Rezervuokite laiką per kelias minutes. Konsultacijos metu aptarsime simptomų
-            istoriją, traumos aplinkybes ir atliksime vizualinį klinikinį įvertinimą per
-            vaizdo skambutį. Gausite individualų, medicininiais įrodymais pagrįstą gydymo planą.
+            Rezervuokite laiką per kelias minutes. Konsultacijos metu aptarsime
+            simptomų istoriją, traumos aplinkybes ir atliksime vizualinį
+            klinikinį įvertinimą per vaizdo skambutį. Gausite individualų,
+            medicininiais įrodymais pagrįstą gydymo planą.
           </p>
           <ol className="space-y-7">
             {steps.map((step) => (
@@ -292,10 +464,14 @@ function Consultation() {
                 </div>
                 <div>
                   <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-bold text-blue-700 bg-blue-50 border border-blue-200 rounded px-1.5 py-0.5">{step.n}</span>
+                    <span className="text-xs font-bold text-blue-700 bg-blue-50 border border-blue-200 rounded px-1.5 py-0.5">
+                      {step.n}
+                    </span>
                     <p className="font-bold text-slate-900">{step.title}</p>
                   </div>
-                  <p className="text-sm text-slate-500 leading-relaxed">{step.desc}</p>
+                  <p className="text-sm text-slate-500 leading-relaxed">
+                    {step.desc}
+                  </p>
                 </div>
               </li>
             ))}
@@ -305,19 +481,26 @@ function Consultation() {
         <div className="sticky top-24">
           <div className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-xl">
             <div className="bg-blue-700 px-8 py-5 text-white text-center">
-              <p className="text-xs font-semibold uppercase tracking-widest text-blue-200 mb-1">Konsultacijos kaina</p>
+              <p className="text-xs font-semibold uppercase tracking-widest text-blue-200 mb-1">
+                Konsultacijos kaina
+              </p>
               <p className="text-6xl font-extrabold tracking-tighter">€49</p>
-              <p className="text-xs text-blue-200 mt-1">vienkartinė konsultacija · ~45 min.</p>
+              <p className="text-xs text-blue-200 mt-1">
+                vienkartinė konsultacija · ~45 min.
+              </p>
             </div>
             <div className="p-8">
               <ul className="space-y-3 mb-7">
                 {[
-                  'Klinikinis įvertinimas ir diagnozė',
-                  'Individualios gydymo rekomendacijos',
-                  'Pratimų programa (PDF)',
-                  'Sekamasis el. laiškas po 2 sav.',
+                  "Klinikinis įvertinimas ir diagnozė",
+                  "Individualios gydymo rekomendacijos",
+                  "Pratimų programa (PDF)",
+                  "Sekamasis el. laiškas po 2 sav.",
                 ].map((item) => (
-                  <li key={item} className="flex items-center gap-3 text-sm text-slate-700">
+                  <li
+                    key={item}
+                    className="flex items-center gap-3 text-sm text-slate-700"
+                  >
                     <span className="w-5 h-5 rounded-full bg-blue-700 text-white flex items-center justify-center flex-shrink-0">
                       <IconCheck />
                     </span>
@@ -332,14 +515,25 @@ function Consultation() {
                 Rezervuoti dabar
               </a>
               <p className="text-xs text-slate-400 mt-4 text-center">
-                Turite klausimų?{' '}
-                <a href="mailto:info@ortopoint.lt" className="text-blue-700 hover:underline font-medium">
+                Turite klausimų?{" "}
+                <a
+                  href="mailto:info@ortopoint.lt"
+                  className="text-blue-700 hover:underline font-medium"
+                >
                   Rašykite mums
                 </a>
               </p>
               <div className="mt-5 pt-5 border-t border-slate-100 flex items-center justify-center gap-2 text-xs text-slate-400">
-                <svg viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 text-green-500 flex-shrink-0">
-                  <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd"/>
+                <svg
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="w-4 h-4 text-green-500 flex-shrink-0"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
+                    clipRule="evenodd"
+                  />
                 </svg>
                 Saugus mokėjimas · Konfidencialu
               </div>
@@ -348,7 +542,7 @@ function Consultation() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 /* ─── Footer ─── */
@@ -362,27 +556,44 @@ function Footer() {
               <IconCross />
             </div>
             <div>
-              <p className="text-white font-bold text-sm leading-tight">Dr. Dovydas Prascevičius</p>
-              <p className="text-xs text-slate-500 uppercase tracking-wider">MD · Ortopedas-Traumatologas</p>
+              <p className="text-white font-bold text-sm leading-tight">
+                Dr. Dovydas Prascevičius
+              </p>
+              <p className="text-xs text-slate-500 uppercase tracking-wider">
+                MD · Ortopedas-Traumatologas
+              </p>
             </div>
           </div>
           <div className="flex flex-wrap items-center gap-4 text-sm">
-            <a href="mailto:info@ortopoint.lt" className="hover:text-white transition-colors">info@ortopoint.lt</a>
+            <a
+              href="mailto:info@ortopoint.lt"
+              className="hover:text-white transition-colors"
+            >
+              info@ortopoint.lt
+            </a>
             <span className="text-slate-700">·</span>
-            <a href="#" className="hover:text-white transition-colors">Privatumo politika</a>
+            <a href="#" className="hover:text-white transition-colors">
+              Privatumo politika
+            </a>
             <span className="text-slate-700">·</span>
-            <a href="#" className="hover:text-white transition-colors">Paslaugų sąlygos</a>
+            <a href="#" className="hover:text-white transition-colors">
+              Paslaugų sąlygos
+            </a>
           </div>
         </div>
         <div className="border-t border-slate-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-          <p>© {new Date().getFullYear()} Dr. Dovydas Prascevičius. Visos teisės saugomos.</p>
+          <p>
+            © {new Date().getFullYear()} Dr. Dovydas Prascevičius. Visos teisės
+            saugomos.
+          </p>
           <p className="text-slate-600 text-center">
-            Ši svetainė yra informacinio pobūdžio ir nepakeičia gydytojo konsultacijos.
+            Ši svetainė yra informacinio pobūdžio ir nepakeičia gydytojo
+            konsultacijos.
           </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
 /* ─── App ─── */
@@ -399,5 +610,5 @@ export default function App() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }
