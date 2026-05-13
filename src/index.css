@@ -3,7 +3,7 @@
 @theme {
   --color-brand: #1a7fd4;
   --color-brand-dark: #1565aa;
-  --font-sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: system-ui, "Segoe UI", Roboto, sans-serif;
 }
 
 html {
