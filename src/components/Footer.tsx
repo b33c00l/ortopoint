@@ -19,15 +19,18 @@ export function Footer() {
             </div>
           </div>
           <div className="flex flex-wrap items-center gap-4 text-sm">
-            <a href="mailto:info@ortopoint.lt" className="hover:text-white transition-colors">
+            <a
+              href="mailto:info@ortopoint.lt"
+              className="hover:text-white transition-colors"
+            >
               info@ortopoint.lt
             </a>
           </div>
         </div>
         <div className="border-t border-slate-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-          <p>© {new Date().getFullYear()} Dr. Dovydas Prascevičius. Visos teisės saugomos.</p>
-          <p className="text-slate-600 text-center">
-            Ši svetainė yra informacinio pobūdžio ir nepakeičia gydytojo konsultacijos.
+          <p>
+            © {new Date().getFullYear()} Dr. Dovydas Prascevičius. Visos teisės
+            saugomos.
           </p>
         </div>
       </div>
