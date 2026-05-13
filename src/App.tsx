@@ -1,5 +1,21 @@
 import doctorImg from "./assets/doctor.png";
 
+declare global {
+  interface Window {
+    Calendly?: {
+      initPopupWidget: (opts: { url: string }) => void;
+    };
+  }
+}
+
+const CALENDLY_URL =
+  "https://calendly.com/dovydas-prascevicius/30min?text_color=ffffff&primary_color=1447e6";
+
+function openCalendly(e: React.MouseEvent) {
+  e.preventDefault();
+  window.Calendly?.initPopupWidget({ url: CALENDLY_URL });
+}
+
 /* ─── SVG icon components ─── */
 const IconCross = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
@@ -167,7 +183,8 @@ function Header() {
           </a>
         </nav>
         <a
-          href="#consultation"
+          href=""
+          onClick={openCalendly}
           className="bg-blue-700 hover:bg-blue-800 text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors whitespace-nowrap"
         >
           Rezervuoti konsultaciją
@@ -259,7 +276,8 @@ function Hero() {
         </ul>
         <div className="flex flex-wrap gap-3">
           <a
-            href="#consultation"
+            href=""
+            onClick={openCalendly}
             className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-semibold text-sm px-6 py-3 rounded-lg transition-colors"
           >
             Rezervuoti konsultaciją
@@ -489,17 +507,17 @@ function About() {
             },
             {
               value: "VU",
-              label: "Vilniaus universiteto absolventas",
+              label: "Medicinos gydytojo kvalifikacija, 2011",
               color: "bg-blue-50 text-blue-700 border border-blue-200",
             },
             {
-              value: "3",
-              label: "Konsultacijų kalbos: LT, EN, RU",
+              value: "2016",
+              label: "Ortopedo traumatologo kvalifikacija, VU",
               color: "bg-slate-800 text-white",
             },
             {
-              value: "Regeneracinės medicinos specialistas",
-              label: "PRGF/PRP",
+              value: "2023",
+              label: "Echoskopuotojo kvalifikacija, LSMU",
               color: "bg-slate-50 text-slate-800 border border-slate-200",
             },
           ].map((card) => (
@@ -625,7 +643,8 @@ function Consultation() {
                 ))}
               </ul>
               <a
-                href="mailto:info@ortopoint.lt"
+                href=""
+                onClick={openCalendly}
                 className="block w-full bg-blue-700 hover:bg-blue-800 text-white font-bold text-sm py-3.5 rounded-lg transition-colors text-center tracking-wide"
               >
                 Rezervuoti dabar
