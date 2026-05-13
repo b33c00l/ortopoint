@@ -234,7 +234,7 @@ function Hero() {
             Dovydas Prascevičius
           </p>
           <p className="text-blue-200 text-xs mt-0.5 uppercase tracking-widest">
-            MD · Ortopedas-Traumatologas
+            Ortopedas-Traumatologas
           </p>
         </div>
       </div>
@@ -257,7 +257,7 @@ function Hero() {
         </p>
         <ul className="space-y-3 mb-8">
           {[
-            "Sporto traumos: petys, alkūnė, klubas, kelys, čiurna",
+            "Sporto traumos: petys, alkūnė, klubas, kelis, čiurna",
             "Sąnarių, raiščių ir sausgyslių echoskopija",
             "Lėtinių degeneracinių sąnarių ligų gydymas",
             "Regeneracinė medicina: PRP/PRGF ir Hialurono injekcijos",
@@ -628,7 +628,7 @@ function Consultation() {
                 {[
                   "Išsami konsultacija vaizdo skambučiu",
                   "Gydymo planas ir tyrimų vertinimas",
-                  "E-receptas ir siuntimas į specialistus",
+                  "E-receptas ar siuntimas tyrimams/pas kitus specialistus",
                   "Konsultacijos išrašas e-sveikatoje",
                 ].map((item) => (
                   <li
@@ -695,7 +695,7 @@ function Footer() {
                 Dr. Dovydas Prascevičius
               </p>
               <p className="text-xs text-slate-500 uppercase tracking-wider">
-                MD · Ortopedas-Traumatologas
+                Ortopedas-Traumatologas
               </p>
             </div>
           </div>
@@ -707,23 +707,12 @@ function Footer() {
               info@ortopoint.lt
             </a>
             <span className="text-slate-700">·</span>
-            <a href="#" className="hover:text-white transition-colors">
-              Privatumo politika
-            </a>
-            <span className="text-slate-700">·</span>
-            <a href="#" className="hover:text-white transition-colors">
-              Paslaugų sąlygos
-            </a>
           </div>
         </div>
         <div className="border-t border-slate-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
           <p>
             © {new Date().getFullYear()} Dr. Dovydas Prascevičius. Visos teisės
             saugomos.
-          </p>
-          <p className="text-slate-600 text-center">
-            Ši svetainė yra informacinio pobūdžio ir nepakeičia gydytojo
-            konsultacijos.
           </p>
         </div>
       </div>
